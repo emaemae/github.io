@@ -270,7 +270,7 @@ popupExit.onclick = function(){
 		rating();
 		popup.style.visibility = "hidden";
 		document.querySelector('.page_active').append(popup);
-		setTimeout(() => {location.reload();}, 1000);
+		//setTimeout(() => {location.reload();}, 1000);
 
 };
 popupClose.onclick = function(){
@@ -498,7 +498,7 @@ popupExit2.onclick = function(){
 		rating();
 		popup2.style.visibility = "hidden";
 		document.querySelector('.page_active').append(popup2);
-		setTimeout(() => {location.reload();}, 1000);
+		//setTimeout(() => {location.reload();}, 1000);
 
 };
 popupClose2.onclick = function(){
@@ -698,7 +698,7 @@ popupExit3.onclick = function(){
 		rating();
 		popup3.style.visibility = "hidden";
 		document.querySelector('.page_active').append(popup3);
-		setTimeout(() => {location.reload();}, 1000);
+		//setTimeout(() => {location.reload();}, 1000);
 
 };
 popupClose3.onclick = function(){
